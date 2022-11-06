@@ -2,8 +2,7 @@
     include "config.php";
 
     if(isset($_POST['submit'])) {
-
-     //echo "<pre>";print_r($_POST);exit;
+      // echo "Test commit..";    
         $first_name = $_POST['firstname'];
         $last_name = $_POST['lastname'];
         $email = $_POST['email'];
